@@ -43,6 +43,7 @@
               <p class="subtitle">- Gary Simon</p>
             </div>
           </div>
+        </div>
         <div class="column">
           <div class="card">
             <div class="card-content">
