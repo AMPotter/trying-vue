@@ -3,7 +3,7 @@
     <div class="nav has-shadow">
       <div class="container">
         <div class="nav-left">
-          <a class="nav-item">Andrew Learns Vue: The Website</a>
+          <p><a class="nav-item">Andrew Learns Vue: The Website</a></p>
         </div>
 
         <span class="nav-toggle" v-on:click="toggleNav" v-bind:class="{ 'is-active': isActive }">
@@ -15,19 +15,8 @@
         <div class="nav-right nav-menu" v-bind:class="{ 'is-active': isActive }">
 
           <router-link to="/" class="nav-item r-item">Home</router-link>
-          <router-link to="about" class="nav-item r-item">About</router-link>
-          <router-link to="faq" class="nav-item r-item">FAQ</router-link>
-
-          <!-- <div class="nav-item">
-            <p class="control">
-              <a class="button is-primary is-outlined">
-                <span class="icon">
-                  <i class="fa fa-download"></i>
-                </span>
-                <span>This Button Looks Cool</span>
-              </a>
-            </p>
-          </div> -->
+          <!-- <router-link to="about" class="nav-item r-item">About</router-link> -->
+          <!-- <router-link to="faq" class="nav-item r-item">FAQ</router-link> -->
 
         </div>
       </div>
@@ -41,7 +30,7 @@
           <div class="column">
             <p>i.am.andrew.potter@gmail.com</p>
           </div>
-          <div class="column has-text-right">
+          <div class="column has-text-right is-one-quarter">
             <a class="icon" href="http://linkedin.com/profile/"><i class="fa fa-linkedin"></i></a>
             <a class="icon" href="http://github.com/AMPotter"><i class="fa fa-github"></i></a>
           </div>
@@ -77,6 +66,7 @@ export default {
 
 .nav
   background-color: #383838
+  text-align: center
   a:hover
     color: gray
 
