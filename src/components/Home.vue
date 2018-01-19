@@ -7,7 +7,7 @@
           <div class="is-two-thirds column is-paddingless">
             <h2 class="subtitle is-4">{{ subheading }}</h2>
           </div>
-          <a class="button is-large is-primary" id="learn">Learn more</a>
+          <a class="button is-large is-primary" id="learn" href="http://github.com/AMPotter">Here's my GitHub!</a>
         </div>
       </div>
     </section>
@@ -19,10 +19,10 @@
             <i class="fa fa-cog is-primary"></i>
           </div>
           <div class="column is-one-third-desktop">
-            <p class="title"><strong>We provide superior logistics so that your business can succeed in a crazy world.</strong></p>
+            <p class="title"><strong>I checked out Vue.JS today. It's neat.<br><br>Click on my projects below. Thanks!</strong></p>
           </div>
           <div class="column">
-            <p><strong>Lorem impsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</strong></p>
+            <p><strong>I think the work you do is fantastic. The websites you build are striking and elegant, and I can think of no better place for me to grow as a developer by working hard with a great team to deliver consistent, clean, and jaw-dropping results.<br><br>I want to work with giants.<br><br>And I want to pet that dog.</strong></p>
           </div>
         </div>
       </div>
@@ -30,25 +30,25 @@
       <div class="columns pd">
         <div class="column">
           <div class="card">
-            <div class="card content">
-              <p class="title">"I think it's an absolutely excellent tool for our business. I can't survive without this thing."</p>
-              <p class="subtitle">- Gary Simon</p>
+            <div class="card-content">
+              <p class="title"><a class="button is-primary" href="http://bushroot.herokuapp.com">Bushroot</a></p>
+              <p class="subtitle">Plan your next garden.<br><br>Full MERN stack</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
             <div class="card-content">
-              <p class="title">"I think it's an absolutely excellent tool for our business. I can't survive without this thing."</p>
-              <p class="subtitle">- Gary Simon</p>
+              <p class="title"><a class="button is-primary" href="http://bookbagpdx.herokuapp.com">Bookbag</a></p>
+              <p class="subtitle">Discover your next page-turner.<br><br>MVC/Handlebars/jQuery/PostgreSQL/Tastedive API</p>
             </div>
           </div>
         </div>
         <div class="column">
           <div class="card">
             <div class="card-content">
-              <p class="title">"I think it's an absolutely excellent tool for our business. I can't survive without this thing."</p>
-              <p class="subtitle">- Gary Simon</p>
+              <p class="title"><a class="button is-primary" href="https://github.com/jubilant-disco/jubilant-disco">Jubilant Disco</a></p>
+              <p class="subtitle">Find your next record-swapping buddy.<br><br>MongoDB/Mongoose/Discogs API (Back-end only)</p>
             </div>
           </div>
         </div>
@@ -62,9 +62,9 @@ export default {
   name: 'home',
   data () {
     return {
-      heading: 'Soaring to new heights',
+      heading: 'Andrew Potter Writes Code',
       subheading:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        'And he\'d love to write lots of code for FINE, if you\'ll have him.'
     }
   }
 }
@@ -75,8 +75,8 @@ export default {
 @import '../mq'
 
 .hero
-  background: url('../assets/clouds.jpg')
-  background-size: cover
+  // background: url('../assets/clouds.jpg')
+  // background-size: cover
 
   .title
     +mobile
@@ -89,6 +89,9 @@ export default {
 
 h2
   margin: 1.5rem 0 2rem 0 !important
+
+.button
+  background-color: $primary !important
 
 .fa-cog
   font-size: 40px

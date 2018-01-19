@@ -3,7 +3,7 @@
     <div class="nav has-shadow">
       <div class="container">
         <div class="nav-left">
-          <a class="nav-item">MyCompany</a>
+          <a class="nav-item">Andrew Learns Vue: The Website</a>
         </div>
 
         <span class="nav-toggle" v-on:click="toggleNav" v-bind:class="{ 'is-active': isActive }">
@@ -18,16 +18,16 @@
           <router-link to="about" class="nav-item r-item">About</router-link>
           <router-link to="faq" class="nav-item r-item">FAQ</router-link>
 
-          <div class="nav-item">
+          <!-- <div class="nav-item">
             <p class="control">
               <a class="button is-primary is-outlined">
                 <span class="icon">
                   <i class="fa fa-download"></i>
                 </span>
-                <span>Join Now</span>
+                <span>This Button Looks Cool</span>
               </a>
             </p>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -35,15 +35,15 @@
 
     <router-view></router-view>
 
-    <footer class="footer is-primary">
+    <footer class="is-primary">
       <div class="container">
         <div class="columns">
           <div class="column">
-            <p>Click on these icons if you suddenly need to check Facebook or Twitter.</p>
+            <p>i.am.andrew.potter@gmail.com</p>
           </div>
           <div class="column has-text-right">
-            <a class="icon" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
-            <a class="icon" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a class="icon" href="http://linkedin.com/profile/"><i class="fa fa-linkedin"></i></a>
+            <a class="icon" href="http://github.com/AMPotter"><i class="fa fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -70,6 +70,10 @@ export default {
 <style lang="sass">
 @import '../node_modules/bulma/bulma.sass'
 @import 'mq'
+
+.button.is-primary.is-outlined
+  border-color: $primary !important
+  color: $primary !important
 
 .nav
   background-color: #383838
