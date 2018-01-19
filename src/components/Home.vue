@@ -86,9 +86,6 @@ export default {
       font-size: 4rem
       margin-top: 2rem
 
-// .hero-body
-//   padding-top: 0px
-
 h2
   margin: 1.5rem 0 2rem 0 !important
 
