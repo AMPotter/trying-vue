@@ -3,7 +3,8 @@
       <div class="container">
           <section class="section">
               <h1 class="title">FAQ</h1>
-              <h2 class="subtitle is-4">Lorum ipsum and all of that jazz.</h2>
+              <h2 class="subtitle is-4">Facts About Quolls</h2>
+              <img id="quoll-img" alt="Facts About Quolls" src="https://www.activewild.com/wp-content/uploads/2015/12/Quoll-Facts-For-Kids-624x416.jpg">
 
               <div class="columns" v-if="faqs && faqs.length">
                   <div class="column is-one-third" v-for="faq of faqs" :key="faq">
@@ -31,7 +32,7 @@ export default {
   }),
 
   created () {
-    axios.get('http://jsonplaceholder.typicode.com/posts')
+    axios.get('http://localhost:8080/static/quoll.json')
       .then(response => {
         this.faqs = response.data.slice(0, 10)
       })
@@ -54,5 +55,10 @@ export default {
 
 .columns
     flex-wrap: wrap
+
+#quoll-img
+    display: block
+    margin: 0 auto
+    padding: 1.5rem 0 3rem 0
 
 </style>

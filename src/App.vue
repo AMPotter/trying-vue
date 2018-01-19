@@ -15,8 +15,7 @@
         <div class="nav-right nav-menu" v-bind:class="{ 'is-active': isActive }">
 
           <router-link to="/" class="nav-item r-item">Home</router-link>
-          <router-link to="faq" class="nav-item r-item">Features</router-link>
-          <router-link to="faq" class="nav-item r-item">About</router-link>
+          <router-link to="about" class="nav-item r-item">About</router-link>
           <router-link to="faq" class="nav-item r-item">FAQ</router-link>
 
           <div class="nav-item">
@@ -40,11 +39,11 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            <p>And this right here is a spiffy footer, where you can put stuff.</p>
+            <p>Click on these icons if you suddenly need to check Facebook or Twitter.</p>
           </div>
           <div class="column has-text-right">
-            <a class="icon" href="#"><i class="fa fa-facebook"></i></a>
-            <a class="icon" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="icon" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+            <a class="icon" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
           </div>
         </div>
       </div>
