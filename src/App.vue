@@ -55,14 +55,14 @@
 <script>
 export default {
   name: 'app',
-  data: function() {
+  data: function () {
     return {
       isActive: false
     }
   },
   methods: {
-    toggleNav: function() {
-      this.isActive = !this.isActive;
+    toggleNav: function () {
+      this.isActive = !this.isActive
     }
   }
 }
@@ -77,7 +77,7 @@ export default {
   a:hover
     color: gray
 
-.nav-left a 
+.nav-left a
   color: #fff
   font-weight: bold
 

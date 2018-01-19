@@ -1,4 +1,4 @@
-> This is tutorial that I'm following to see how Vue works! Click [here](https://coursetro.com/posts/code/71/Build-your-First-Vue.js-App-%7C-Vue.js-2.0-Tutorial) to check it out!
+> This is a tutorial that I'm following to see how Vue works. Click [here](https://coursetro.com/posts/code/71/Build-your-First-Vue.js-App-%7C-Vue.js-2.0-Tutorial) to check it out!
 
 # trying-vue
 
